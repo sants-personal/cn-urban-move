@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"996427ab3dbc51e2","type":"group","x":680,"y":-455,"width":1440,"height":1560,"color":"5","label":"business land"},
+		{"id":"b46356113f54071d","x":-520,"y":-347,"width":1160,"height":1286,"color":"3","type":"group","label":"mantainer land"},
+		{"id":"f1be0046177ed201","x":-1680,"y":-86,"width":817,"height":765,"color":"4","type":"group","label":"user land"},
+		{"id":"2863e255b7e21924","type":"group","x":-1680,"y":-680,"width":3480,"height":100,"label":"tipos de usuario"},
+		{"id":"e3cdd4057dcf1592","type":"group","x":-1680,"y":-455,"width":366,"height":215,"label":"datos ligados a cuenta"},
+		{"id":"28b3f0d660d0de32","type":"text","text":"2026-11-16 ","x":80,"y":-1000,"width":250,"height":60,"color":"1"},
+		{"id":"401684925848910d","type":"text","text":"mantenedores","x":72,"y":-660,"width":250,"height":60,"color":"3"},
+		{"id":"f23a65eb9ca62b9c","type":"text","text":"clientes","x":-1600,"y":-660,"width":250,"height":60,"color":"4"},
+		{"id":"6b0d227b57fcb64f","type":"text","text":"analistas","x":1520,"y":-660,"width":250,"height":60,"color":"5"},
+		{"id":"c6106272a6d8ac43","type":"text","text":"datos personales","x":-1584,"y":-435,"width":250,"height":60},
+		{"id":"cfadb4ee5ef6c59b","type":"text","text":"preferencias","x":-1600,"y":-320,"width":250,"height":60},
+		{"id":"2bd0a3c7bde62787","type":"text","text":"Reservas Crea, confirma, cancela y expira reservas. Controla que\nun recurso no se reserve dos veces.","x":-1446,"y":222,"width":429,"height":103},
+		{"id":"bfedd4f8f6b4177c","type":"text","text":"Catálogo de zonas\nMantiene zonas permitidas, restricciones de aparcamiento, áreas de operación y metadatos geográficos simplificados.","x":-1440,"y":32,"width":417,"height":124},
+		{"id":"1f464209358550ca","type":"text","text":"Incidencias Registra averías, vandalismo, bloqueos, recursos desaparecidos o incidencias reportadas por usuarios y mantenimiento.","x":-1480,"y":413,"width":477,"height":109},
+		{"id":"472813365ce3d2ca","type":"text","text":"Historial Servicio independiente para consultar histórico de reservas, viajes, incidencias, mantenimiento y operaciones relevantes. No debe ser una tabla secundaria dentro de otro\nmicroservicio.","x":1529,"y":-28,"width":485,"height":152},
+		{"id":"161b7d0f8f297009","type":"text","text":"Analítica operacional Expone consultas agregadas de demanda, ocupación, dis-\nponibilidad y rendimiento operacional a partir de data\nmarts. Debe alimentar el dashboard o justificar qué indi-\ncadores se calculan en otro componente.","x":1529,"y":285,"width":401,"height":240},
+		{"id":"9905543e35af2347","type":"text","text":"Adquisiciones \nRegistra compra o incorporación de nuevos recursos y pública eventos para inventario y analítica","x":100,"y":-182,"width":359,"height":159},
+		{"id":"4db74c861e94d399","type":"text","text":"Órdenes de mantenimiento\nGestiona retirada, recarga, reparación, revisión, asignación y reincorporación de recursos.","x":73,"y":21,"width":414,"height":120},
+		{"id":"27580fda586cdc15","type":"text","text":"Órdenes de recolocación \nGestiona redistribución de recursos entre zonas a partir de reglas o indicadores de demanda.","x":101,"y":202,"width":386,"height":143},
+		{"id":"a6f78d84803a00ee","type":"text","text":"Notificaciones \nEnvía o simula avisos a usuarios, mantenimiento u opera-\nciones ante reservas, incidencias, órdenes o errores recu-\nperables.","x":-460,"y":-193,"width":481,"height":170},
+		{"id":"aa40430bf3940f5f","type":"text","text":"Disponibilidad \nMantiene qué recursos pueden reservarse en cada momento, evitando mezclar inventario, reservas y mantenimiento.","x":-428,"y":21,"width":417,"height":129},
+		{"id":"e2385513c00487cb","type":"text","text":"Inventario de recursos \nRegistra bicicletas y patinetes como activos: identificador, tipo, fecha de compra, modelo y estado administrativo.","x":-425,"y":198,"width":414,"height":130},
+		{"id":"2831286c9583ac0f","type":"text","text":"Viajes \nGestiona inicio y fin de uso. Calcula duración, zona de origen, zona de destino y coste preliminar.","x":-393,"y":420,"width":351,"height":120},
+		{"id":"bc6ce8a401254d65","type":"text","text":"Batería y telemetría \nRecibe o simula nivel de batería, última ubicación, kilómetros o número de usos desde la última revisión.","x":100,"y":420,"width":414,"height":108}
+	],
+	"edges":[
+		{"id":"d1115dec50ebefaa","fromNode":"f23a65eb9ca62b9c","fromSide":"bottom","toNode":"e3cdd4057dcf1592","toSide":"right"}
+	]
+}
